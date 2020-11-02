@@ -22,7 +22,8 @@ public class FeiBoNaQie {
         }
 
         for (int i =1;i<=10;i++){
-            System.out.println(getNumber(i) + "\t");
+            int data = getNumber(i);
+            System.out.println(data + "\t");
         }
 
     }
